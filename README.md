@@ -1,9 +1,11 @@
 # ASCII_ART
 
 
-		 http://busyducks.com/ascii-art-arduinos
-     for original Arduino UNO ascii art 
-     
+http://busyducks.com/ascii-art-arduinos
+for original Arduino UNO ascii art 
+
+=====================Arduino ZERO========================     
+
                         +-----+     +-----+     
                         | nat |     | prg |   
          +--[PWR]-------| USB |-----| USB |----+
@@ -41,7 +43,10 @@
           TDI [9][ ] GND
          
 
-   
+=====================BP6A Arduino Shield========================     
+
+
+
                                     +-----+     
                                     | USB |   
          +--------------------------|  C  |----+
@@ -79,6 +84,7 @@
           [ ] [ ] [ ] [ ] [2]
           GND N/C RST 3V3 GND
 
+	              PPG
              VDD_3P3 [1](2) PPG_LED0
             PPG_LED1 (3)(4) PPG_LED2
             PPG_LED3 (5)(6) PPG_INN0
@@ -87,7 +93,7 @@
             PPG_INN1 (B)(C) PPG_INP1
 
 
-            
+                  BIA/ECG/GSR
             GSR_POUT [1](2) GPA0_INP
             GSR_NOUT (3)(4) GPA0_INN
               GPIO1E (5)(6) GPIO18
